@@ -1,3 +1,4 @@
+//Service
 var userModule = angular.module('UserModule',['ngCookies']);
 userModule.service('UserService',['$http','$q','$cookies', '$rootScope','REST_URI',function($http,$q,$cookies,$rootScope, REST_URI) {    
     

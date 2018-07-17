@@ -2,6 +2,7 @@ package com.developer.angularjs_oracle.model;
 
 import java.io.Serializable;
 
+
 public class UserModel extends DomainResponseModel implements Serializable{
 
 	private int id;

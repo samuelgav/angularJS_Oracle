@@ -15,9 +15,6 @@ import com.developer.angularjs_oracle.model.UserModel;
 import com.developer.angularjs_oracle.service.UserService;
 
 
-
-
-
 public class UserTestCase {
 
 	private static AnnotationConfigApplicationContext context = null;

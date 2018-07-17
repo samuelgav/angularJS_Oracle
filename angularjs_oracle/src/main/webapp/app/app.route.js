@@ -1,4 +1,4 @@
-// list the routes here for user to navigate through the website.
+// lista the routes here for user to navigate through the website.
 window.routes =
 {
 	"/home": {

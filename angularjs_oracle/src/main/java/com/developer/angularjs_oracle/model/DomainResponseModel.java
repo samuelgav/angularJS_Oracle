@@ -1,5 +1,6 @@
 package com.developer.angularjs_oracle.model;
 
+
 public class DomainResponseModel {
 
 	private int code;

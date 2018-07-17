@@ -1,3 +1,4 @@
+//Directive
 userModule.directive('username', function(UserService, $q) {
 	  return {
 	    require: 'ngModel',

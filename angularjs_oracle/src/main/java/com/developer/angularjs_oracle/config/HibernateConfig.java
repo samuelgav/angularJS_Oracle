@@ -23,6 +23,7 @@ public class HibernateConfig {
 	private static final String DATABASE_USERNAME="user_details";
 	private static final String DATABASE_PASSWORD="12345";
 	
+	//DataSource
 	@Bean
 	public DataSource getDataSource(){
 		BasicDataSource dataSource=new BasicDataSource();
@@ -54,7 +55,7 @@ public class HibernateConfig {
 		return properties;
 	}
 	
-	// transactionManager bean
+	// transactionManager bean 
 	@Bean
 	public HibernateTransactionManager getTransactionManager(SessionFactory sessionFactory){
 		HibernateTransactionManager transactionManager=new HibernateTransactionManager(sessionFactory);

@@ -1,3 +1,4 @@
+//Controller
 userModule.controller('UserController', function(UserService, $rootScope ,$location, $timeout){
 	
 		var me = this; 

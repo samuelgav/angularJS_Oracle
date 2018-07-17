@@ -5,6 +5,7 @@ import java.util.regex.Pattern;
 
 import org.springframework.stereotype.Component;
 
+
 @Component
 public class UserFieldValidator {
 

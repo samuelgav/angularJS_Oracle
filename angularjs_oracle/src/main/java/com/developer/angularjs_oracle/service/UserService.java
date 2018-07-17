@@ -10,6 +10,7 @@ import com.developer.angularjs_oracle.model.DomainResponseModel;
 import com.developer.angularjs_oracle.model.UserModel;
 import com.developer.angularjs_oracle.validator.UserFieldValidator;
 
+
 @Service("userService")
 public class UserService {
 

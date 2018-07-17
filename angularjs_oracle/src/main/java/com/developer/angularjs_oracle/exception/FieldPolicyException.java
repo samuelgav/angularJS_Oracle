@@ -2,6 +2,7 @@ package com.developer.angularjs_oracle.exception;
 
 public class FieldPolicyException extends Exception{
 
+	
 	private static final long serialVersionUID = 1L;
 	
 	private String message;

@@ -6,7 +6,6 @@ import com.developer.angularjs_oracle.config.MvcConfig;
 import com.developer.angularjs_oracle.config.RootConfig;
 
 
-
 public class WebApplicationInitializer extends AbstractAnnotationConfigDispatcherServletInitializer {
 
 	@Override

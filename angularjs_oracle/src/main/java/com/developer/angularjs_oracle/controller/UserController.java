@@ -15,7 +15,6 @@ import com.developer.angularjs_oracle.model.UserModel;
 import com.developer.angularjs_oracle.service.UserService;
 
 
-
 @RestController
 @RequestMapping("/api")
 public class UserController {

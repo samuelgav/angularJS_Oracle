@@ -1,3 +1,4 @@
+//module
 var app = false;
 (function(){
 	

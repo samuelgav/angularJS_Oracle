@@ -14,6 +14,7 @@ import org.springframework.web.servlet.view.InternalResourceViewResolver;
 @EnableWebMvc
 @ComponentScan(basePackages = {"com.developer.angularjs_oracle.controller"})
 public class MvcConfig extends WebMvcConfigurerAdapter {
+	
 	// Configuration to load the static resources	
 	 @Override
 	 public void addResourceHandlers(ResourceHandlerRegistry registry) {
